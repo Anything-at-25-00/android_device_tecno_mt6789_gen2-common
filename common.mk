@@ -264,7 +264,8 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
     FrameworksResCommon \
     SystemUIResCommon \
-    TelephonyResCommon
+    TelephonyResCommon \
+	WifiResOverlayCommon
 
 # Lineage-Specific Overlays
 PRODUCT_PACKAGES += \
