@@ -441,8 +441,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libstagefright_foundation-v33 \
     libhidlbase-v32 \
-    libbinder-v32 
-
+    libbinder-v32 \
+    libutils-v32
+    
 # Wi-Fi
 PRODUCT_PACKAGES += \
     libwifi-hal-wrapper \
