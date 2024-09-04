@@ -368,6 +368,7 @@ PRODUCT_PACKAGES += \
     libshim_camera_metadata \
     libexpat.vendor \
     libunwindstack.vendor \
+    libchrome.vendor \
     libcurl.vendor \
     libutilscallstack.vendor \
     libexif.vendor \
