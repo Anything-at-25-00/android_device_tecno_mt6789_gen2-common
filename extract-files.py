@@ -80,9 +80,12 @@ blob_fixups: blob_fixups_user_type = {
         .regex_replace('start', 'enable'),
     ('vendor/lib*/libspeech_enh_lib.so',
      'vendor/lib64/libwifi-hal-mtk.so',
+     'vendor/lib*/libalsautils-v31.so',
      'vendor/lib*/hw/sound_trigger.primary.mt6789.so',
      'vendor/lib64/libnir_neon_driver_ndk.mtk.vndk.so'): blob_fixup()
         .fix_soname(),
+     'vendor/lib*/hw/audio.primary.mediatek.so': blob_fixup()
+        .replace_needed('libalsautils.so, 'libalsautils-v31.so'),
 }  # fmt: skip
 
 
