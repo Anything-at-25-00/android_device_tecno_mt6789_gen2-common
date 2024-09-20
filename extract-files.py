@@ -85,6 +85,7 @@ blob_fixups: blob_fixups_user_type = {
      'vendor/lib64/libnir_neon_driver_ndk.mtk.vndk.so'): blob_fixup()
         .fix_soname(),
      'vendor/lib*/hw/audio.primary.mediatek.so': blob_fixup()
+        .add_needed('libstagefright_foundation-v33.so')
         .replace_needed('libalsautils.so, 'libalsautils-v31.so'),
 }  # fmt: skip
 
