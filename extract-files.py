@@ -89,6 +89,8 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('libalsautils.so, 'libalsautils-v31.so'),
     'vendor/etc/vintf/manifest/manifest_media_c2_V1_2_default.xml': blob_fixup()
         .regex_replace('1.1', '1.2'),
+    'vendor/etc/init/init.thermal_core.rc': blob_fixup()
+        .regex_replace('ro.vendor.mtk_thermal_2_0', 'vendor.thermal.link_ready'),
 }  # fmt: skip
 
 
