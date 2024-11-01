@@ -82,9 +82,6 @@ debug.sf.enable_transaction_tracing=false
 debug.sf.predict_hwc_composition_strategy=0
 debug.sf.use_phase_offsets_as_durations=1
 
-# Disable blur on app launch
-ro.launcher.blur.appLaunch=1
-
 # Iorapd
 ro.iorapd.enable=false
 iorapd.perfetto.enable=false
