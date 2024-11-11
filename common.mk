@@ -432,6 +432,8 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # USB
+$(call soong_config_set,android_hardware_mediatek_usb,audio_accessory_supported,true)
+
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.3.vendor \
     android.hardware.usb.gadget@1.1.vendor
