@@ -467,6 +467,10 @@ PRODUCT_PACKAGES += \
     libhidlbase-v32 \
     libbinder-v32 \
     libutils-v32
+
+# vndservice
+PRODUCT_PACKAGES += \
+   vndservicemanager
     
 # Wi-Fi
 PRODUCT_PACKAGES += \
