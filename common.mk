@@ -394,7 +394,11 @@ PRODUCT_PACKAGES += \
 
 # Required libs as of 15 QPR2
 PRODUCT_PACKAGES += \
-   libbase_shim
+   libbase_shim \
+   libprocessgroup_shim \
+   libbinder-v32 \
+   libstagefright_foundation-v33 \
+   libutils-v32
 
 # Secure Element
 PRODUCT_PACKAGES += \
