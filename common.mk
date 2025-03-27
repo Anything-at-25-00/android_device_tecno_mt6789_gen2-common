@@ -397,6 +397,8 @@ PRODUCT_PACKAGES += \
    libbase_shim \
    libprocessgroup_shim \
    libbinder-v32 \
+   libhidlbase-v32 \
+   libhidlbase-v32.vendor \
    libstagefright_foundation-v33 \
    libutils-v32
 
