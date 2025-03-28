@@ -398,6 +398,7 @@ PRODUCT_PACKAGES += \
    libprocessgroup_shim \
    libbinder-v32 \
    libstagefright_foundation-v33 \
+   libutils-shim \
    libutils-v32 \
    libutils-v32.transsion
 
