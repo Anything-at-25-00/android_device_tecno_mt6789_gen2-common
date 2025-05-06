@@ -41,6 +41,9 @@ drm.service.enabled=true
 ro.vendor.mtk_widevine_drm_l1_support=1
 ro.vendor.mtk_tee_gp_support=1
 
+# Enable virtual A/B compression
+ro.virtual_ab.compression.threads=true
+
 # Graphics
 debug.sf.disable_client_composition_cache=1
 debug.sf.enable_transaction_tracing=false
