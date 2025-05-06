@@ -266,7 +266,8 @@ PRODUCT_PACKAGES += \
     SettingsResOverlayCommon \
     SystemUIResCommon \
     TelephonyResCommon \
-	WifiResOverlayCommon
+    TetheringResOverlayCommon \
+    WifiResOverlayCommon
 
 # Lineage-Specific Overlays
 PRODUCT_PACKAGES += \
