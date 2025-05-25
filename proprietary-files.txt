@@ -279,52 +279,11 @@ system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so|cdd9da0a0896031f
 -system_ext/priv-app/ImsService/ImsService.apk:system/priv-app/ImsService/ImsService.apk|e2d3c7154ebe5ebc3594d4647d06d80fd1481cc7
 
 # IMS (Vendor)
-vendor/bin/hw/vendor.mediatek.hardware.mmagent@1.1-service
-vendor/bin/hw/vtservice_hidl
-vendor/bin/ipsec_mon
-vendor/bin/lbs_hidl_service
-vendor/bin/rcs_volte_stack
-vendor/bin/volte_clientapi_ua
-vendor/bin/volte_imcb
-vendor/bin/volte_imsm_93
-vendor/bin/volte_md_status
-vendor/bin/volte_rcs_ua
-vendor/bin/volte_stack
-vendor/bin/volte_ua
-vendor/etc/init/init.volte_imcb.rc
-vendor/etc/init/init.volte_imsm_93.rc
-vendor/etc/init/init.volte_md_status.rc
-vendor/etc/init/init.volte_stack.rc
-vendor/etc/init/init.volte_ua.rc
-vendor/etc/init/init.vtservice_hidl.rc
-vendor/etc/init/ipsec_mon.rc
-vendor/etc/init/lbs_hidl_service.rc
-vendor/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc
-vendor/etc/init/volte_clientapi_ua.rc
 vendor/etc/vintf/manifest/lbs_hidl_service@1.0.xml
-vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
-vendor/lib/libipsec_ims_shr.so
 vendor/lib/librcs_interface.so
-vendor/lib/librcs_volte_core.so
-vendor/lib/libvolte_core_shr.so
-vendor/lib/libvolte_xdmc_shr.so
-vendor/lib/vendor.mediatek.hardware.rcs@2.0.so
-vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so
-vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
-vendor/lib64/lbs_hidl_service-impl.so
-vendor/lib64/libipsec_ims_shr.so
-vendor/lib64/libmmagent.so
 vendor/lib64/libmtklimiter_vendor.so
-vendor/lib64/libmtknetcap.so
-vendor/lib64/libmtknetutils.so
 vendor/lib64/libmtkshifter_vendor.so
 vendor/lib64/libmtkspparser.so
-vendor/lib64/libmtksysutils.so
-vendor/lib64/vendor.mediatek.hardware.clientapi@1.0.so
-vendor/lib64/vendor.mediatek.hardware.lbs@1.0.so
-vendor/lib64/vendor.mediatek.hardware.mmagent@1.0.so
-vendor/lib64/vendor.mediatek.hardware.mmagent@1.1.so
-vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 
 # Keymaster
 vendor/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service
@@ -382,7 +341,6 @@ vendor/lib64/libstagefrighthw.so
 
 # Media (C2)
 vendor/bin/hw/android.hardware.media.c2@1.2-mediatek-64b
-vendor/etc/VideoLog_dynamic.xml
 vendor/etc/init/android.hardware.media.c2@1.2-mediatek.rc
 vendor/etc/mtk_platform_codecs_config.xml
 vendor/etc/vintf/manifest/manifest_media_c2_V1_1_default.xml
@@ -404,7 +362,6 @@ vendor/lib/HEVCSecureVdecCA_510.so
 vendor/lib/VP9SecureVdecCA_510.so
 vendor/lib/libAVCSecureVencCA_510.so
 vendor/lib/libHEVCdec_sa.ca7.android.so
-vendor/lib/libadpcmdec_mtk.so
 vendor/lib/libbwc.so
 vendor/lib/libh264dec_customize.so
 vendor/lib/libh264dec_sa.ca7.so
@@ -412,21 +369,11 @@ vendor/lib/libh264dec_sd.ca7.so
 vendor/lib/libh264dec_se.ca7.so
 vendor/lib/libh264enc_sa.ca7.so
 vendor/lib/libhevce_sb.ca7.android.so
-vendor/lib/libmp3dec_mtk.so
 vendor/lib/libmp4enc_sa.ca7.so
 vendor/lib/libmp4enc_xa.ca7.so
-vendor/lib/libvcodec_oal.so
-vendor/lib/libvcodec_utility_plat.mt6789.so
-vendor/lib/libvcodecdrv_header_stub.so
 vendor/lib/libvp8dec_sa.ca7.so
 vendor/lib/libvp8enc_sa.ca7.so
 vendor/lib/libvp9dec_sa.ca7.so
-vendor/lib/mt6789/libmtk_drvb.so
-vendor/lib/mt6789/libvcodec_utility.so
-vendor/lib/mt6789/libvcodec_utility_v3a.so
-vendor/lib/mt6789/libvcodecdrv.so
-vendor/lib/mt6789/libvcodecdrv_v3a.so
-vendor/lib/mt6789/libvpudv3a_vcodec.so
 vendor/lib64/AVCSecureVdecCA_510.so
 vendor/lib64/HEVCSecureVdecCA_510.so
 vendor/lib64/VP9SecureVdecCA_510.so
@@ -436,7 +383,6 @@ vendor/lib64/libbwc.so
 vendor/lib64/libmp3dec_mtk.so
 vendor/lib64/libvcodec_oal.so
 vendor/lib64/libvcodecdrv_header_stub.so
-vendor/lib64/mt6789/libmtk_drvb.so
 
 # Media (VPU)
 vendor/lib64/libmvpu_cic_ci_compiler.so
@@ -454,7 +400,6 @@ vendor/lib64/libmvpu_runtime.so
 vendor/lib64/libmvpu_runtime_pub.so
 vendor/lib64/libmvpuop_mtk_cv.so
 vendor/lib64/libmvpuop_mtk_nn.so
-vendor/lib64/libvpu.so
 vendor/lib64/libvpu5.so
 
 # Misc
@@ -512,7 +457,6 @@ vendor/etc/nnapi_powerhal.json
 vendor/lib64/mt6789/libneuralnetworks_sl_driver_mtk_prebuilt.so
 vendor/lib64/mt6789/libneuron_adapter_mgvi.so
 vendor/lib64/mt6789/libneuron_runtime.5.so
-vendor/lib64/mt6789/libnir_neon_driver.so
 vendor/lib64/libarmnn.so
 vendor/lib64/libarmnn_ndk.mtk.vndk.so
 vendor/lib64/libasn1c_core.so

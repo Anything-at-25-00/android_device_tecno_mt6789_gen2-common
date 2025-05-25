@@ -15,7 +15,6 @@ from extract_utils.main import (
 )
 
 blob_fixups: blob_fixups_user_type = {
-
     ('vendor/bin/hw/android.hardware.gnss-service.mediatek', 'vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so'): blob_fixup()
         .replace_needed('android.hardware.gnss-V1-ndk_platform.so', 'android.hardware.gnss-V1-ndk.so'),
     ('vendor/lib*/hw/audio.primary.mediatek.so',
