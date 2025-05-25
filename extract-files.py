@@ -81,7 +81,7 @@ blob_fixups: blob_fixups_user_type = {
         .fix_soname(),
      'vendor/lib*/hw/audio.primary.mediatek.so': blob_fixup()
         .add_needed('libstagefright_foundation-v33.so')
-        .replace_needed('libalsautils.so, 'libalsautils-v31.so'),
+        .replace_needed('libalsautils.so', 'libalsautils-v31.so'),
     'vendor/etc/vintf/manifest/manifest_media_c2_V1_2_default.xml': blob_fixup()
         .regex_replace('1.1', '1.2'),
     'vendor/etc/init/init.thermal_core.rc': blob_fixup()
