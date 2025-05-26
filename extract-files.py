@@ -38,13 +38,11 @@ lib_fixups: lib_fixups_user_type = {
 blob_fixups: blob_fixups_user_type = {
     ('vendor/bin/hw/android.hardware.gnss-service.mediatek', 'vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so'): blob_fixup()
         .replace_needed('android.hardware.gnss-V1-ndk_platform.so', 'android.hardware.gnss-V1-ndk.so'),
-    ('vendor/lib*/hw/audio.primary.mediatek.so', 'vendor/bin/hw/mt6789/camerahalserver', 'vendor/lib64/hw/mt6789/android.hardware.camera.provider@2.6-impl-mediatek.so',
-     'vendor/lib/hw/mt6789/vendor.mediatek.hardware.pq@2.15-impl.so','vendor/lib64/hw/mt6789/vendor.mediatek.hardware.pq@2.15-impl.so', 'vendor/lib64/hw/mt6789/vendor.mediatek.hardware.camera.isphal@1.0-impl.so', 'vendor/lib64/hw/mt6789/vendor.mediatek.hardware.camera.isphal@1.1-impl.so', 'vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service'): blob_fixup()
+    ('vendor/lib*/hw/audio.primary.mediatek.so',
+     'vendor/lib/hw/mt6789/vendor.mediatek.hardware.pq@2.15-impl.so','vendor/lib64/hw/mt6789/vendor.mediatek.hardware.pq@2.15-impl.so', 'vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service'): blob_fixup()
         .replace_needed('libhidlbase.so', 'libhidlbase-v32.so')
         .replace_needed('libbinder.so', 'libbinder-v32.so')
         .replace_needed('libutils.so', 'libutils-v32.transsion.so'),
-    'vendor/lib64/hw/mt6789/android.hardware.camera.provider@2.6-impl-mediatek.so': blob_fixup()
-        .add_needed('libshim_camera_metadata.so'),
     ('vendor/lib*/libwvhidl.so', 'vendor/lib*/mediadrm/libwvdrmengine.so'): blob_fixup()
         .replace_needed('libprotobuf-cpp-lite-3.9.1.so', 'libprotobuf-cpp-full-3.9.1.so'),
     'vendor/etc/init/android.hardware.media.c2@1.2-mediatek.rc': blob_fixup()
@@ -55,8 +53,7 @@ blob_fixups: blob_fixups_user_type = {
     ('vendor/bin/mnld',
      'vendor/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so',
      'vendor/lib64/hw/mt6789/vendor.mediatek.hardware.pq@2.15-impl.so',
-     'vendor/lib64/mt6789/libaalservice.so',
-     'vendor/lib64/mt6789/libcam.utils.sensorprovider.so'): blob_fixup()
+     'vendor/lib64/mt6789/libaalservice.so'): blob_fixup()
         .add_needed('libshim_sensors.so'),
     'vendor/bin/hw/android.hardware.security.keymint-service.trustonic': blob_fixup()
         .replace_needed('android.hardware.security.keymint-V1-ndk_platform.so', 'android.hardware.security.keymint-V1-ndk.so')
@@ -99,8 +96,6 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('liblog.so'),
     'vendor/lib64/mt6789/libmnl.so': blob_fixup()
         .add_needed('libcutils.so'),
-    ('vendor/lib64/hw/mt6789/android.hardware.camera.provider@2.6-impl-mediatek.so', 'vendor/lib64/hw/mt6789/vendor.mediatek.hardware.camera.isphal@1.0-impl.so', 'vendor/lib64/hw/mt6789/vendor.mediatek.hardware.camera.isphal@1.1-impl.so'): blob_fixup()
-        .add_needed('libutils-shim.so'),
 }  # fmt: skip
 
 
