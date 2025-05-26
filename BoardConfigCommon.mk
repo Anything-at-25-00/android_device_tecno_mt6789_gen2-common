@@ -185,4 +185,4 @@ WIFI_HAL_INTERFACE_COMBINATIONS += ,{{{STA}, 1}, {{NAN}, 1}}
 WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 
 # Inherit proprietary blobs
-include vendor/transsion/mt6789_gen2-common/BoardConfigVendor.mk
+include vendor/tecno/mt6789_gen2-common/BoardConfigVendor.mk

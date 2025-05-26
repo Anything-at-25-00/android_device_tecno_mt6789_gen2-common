@@ -20,7 +20,7 @@ from extract_utils.main import (
 )
 
 namespace_imports = [
-    'device/transsion/mt6789_gen2-common',
+    'device/tecno/mt6789_gen2-common',
     'hardware/mediatek',
     'hardware/mediatek/libmtkperf_client',
     'hardware/transsion',
@@ -106,7 +106,7 @@ blob_fixups: blob_fixups_user_type = {
 
 module = ExtractUtilsModule(
     'mt6789_gen2-common',
-    'transsion',
+    'tecno',
     blob_fixups=blob_fixups,
     lib_fixups=lib_fixups,
     namespace_imports=namespace_imports,
