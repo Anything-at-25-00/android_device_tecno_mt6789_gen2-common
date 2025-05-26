@@ -356,6 +356,7 @@ vendor/lib/HEVCSecureVdecCA_510.so
 vendor/lib/VP9SecureVdecCA_510.so
 vendor/lib/libAVCSecureVencCA_510.so
 vendor/lib/libHEVCdec_sa.ca7.android.so
+vendor/lib/libadpcmdec_mtk.so
 vendor/lib/libbwc.so
 vendor/lib/libh264dec_customize.so
 vendor/lib/libh264dec_sa.ca7.so
@@ -363,6 +364,9 @@ vendor/lib/libh264dec_sd.ca7.so
 vendor/lib/libh264dec_se.ca7.so
 vendor/lib/libh264enc_sa.ca7.so
 vendor/lib/libhevce_sb.ca7.android.so
+vendor/lib/libion_mtk.so
+vendor/lib/libion_ulit.so
+vendor/lib/libmp3dec_mtk.so
 vendor/lib/libmp4enc_sa.ca7.so
 vendor/lib/libmp4enc_xa.ca7.so
 vendor/lib/libvp8dec_sa.ca7.so
@@ -374,6 +378,7 @@ vendor/lib64/VP9SecureVdecCA_510.so
 vendor/lib64/libAVCSecureVencCA_510.so
 vendor/lib64/libadpcmdec_mtk.so
 vendor/lib64/libbwc.so
+vendor/lib64/libhevce_sb.ca7.android.so
 vendor/lib64/libmp3dec_mtk.so
 vendor/lib64/libvcodec_oal.so
 vendor/lib64/libvcodecdrv_header_stub.so
@@ -585,8 +590,10 @@ vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc
 vendor/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so
 vendor/lib64/hw/sensors.mediatek.V2.0.so
 vendor/lib64/libhfmanager.so
+vendor/lib64/libhfmanagerwrapper.so
 vendor/lib64/libhwm.so
 vendor/lib64/libksensor.so
+vendor/lib64/librgbwlightsensor.so
 
 # Soundtrigger
 -vendor/lib/hw/sound_trigger.primary.default.so:vendor/lib/hw/sound_trigger.primary.mt6789.so
