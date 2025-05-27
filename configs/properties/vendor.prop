@@ -48,7 +48,6 @@ ro.virtual_ab.compression.threads=true
 debug.sf.disable_client_composition_cache=1
 debug.sf.enable_transaction_tracing=false
 debug.mediatek.appgamepq_compress=1
-debug.renderengine.backend=skiagl
 debug.sf.disable_backpressure=1
 debug.sf.late.sf.duration=10500000
 debug.sf.late.app.duration=20500000
