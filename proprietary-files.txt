@@ -309,6 +309,9 @@ vendor/lib64/VP9SecureVdecCA_510.so
 vendor/lib64/libAVCSecureVencCA_510.so
 vendor/lib64/libadpcmdec_mtk.so
 vendor/lib64/libbwc.so
+vendor/lib64/libJpgEncPipe.so
+vendor/lib64/libjpeg-alpha-oal_vendor.so
+vendor/lib64/libjpeg-alpha_vendor.so
 vendor/lib64/libhevce_sb.ca7.android.so
 vendor/lib64/libheichal.so
 vendor/lib64/libmp3dec_mtk.so
