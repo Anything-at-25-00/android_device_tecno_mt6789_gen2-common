@@ -292,6 +292,9 @@ PRODUCT_PACKAGES += \
 # Lineage-Specific Overlays
 PRODUCT_PACKAGES += \
 	ApertureOverlay
+
+PRODUCT_PACKAGES += \
+    NcmTetheringOverlay
     
 # Permissions
 PRODUCT_COPY_FILES += \
