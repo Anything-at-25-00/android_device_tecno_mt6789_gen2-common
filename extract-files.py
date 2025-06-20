@@ -59,10 +59,6 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('android.hardware.security.secureclock-V1-ndk_platform.so', 'android.hardware.security.secureclock-V1-ndk.so')
         .replace_needed('android.hardware.security.sharedsecret-V1-ndk_platform.so', 'android.hardware.security.sharedsecret-V1-ndk.so')
         .add_needed('android.hardware.security.rkp-V3-ndk.so'),
-    ('system_ext/bin/vtservice', 'system_ext/lib64/libsource.so'): blob_fixup()
-        .add_needed('libshim_ui.so'),
-    ('system_ext/bin/vtservice', 'system_ext/lib64/libsink.so'): blob_fixup()
-        .add_needed('libshim_sink.so'),
     ('vendor/bin/hw/vendor.silead.hardware.fingerprintext@1.0-service',
      'vendor/lib64/vendor.silead.hardware.fingerprintext@1.0.so',
      'vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so'): blob_fixup()
