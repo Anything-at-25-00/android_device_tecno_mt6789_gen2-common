@@ -194,10 +194,6 @@ PRODUCT_PACKAGES += \
 # IMS
 $(call inherit-product, vendor/mediatek/ims/ims.mk)
 
-PRODUCT_PACKAGES += \
-    libshim_sink \
-    libshim_ui
-
 # Init files
 PRODUCT_PACKAGES += \
     fstab.mt6789 \
